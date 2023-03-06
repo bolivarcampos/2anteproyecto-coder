@@ -1,0 +1,149 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blanco: #33A3FF;
+    --oscuro: #8F33FF;
+    --primario:#b8ff33;
+    --secundario: #F533FF;
+    --gris: #FF33A3;
+
+}
+
+body{
+    font-size: 16px; /* 1rem= 10px */
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    background-color: var(--primario);
+    height: 10rem;
+    padding-top: 1rem;
+}
+
+nav ul li a {
+    list-style: none; 
+    text-decoration: none;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 2rem;
+   
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+  }
+
+h3{
+    font-size: 1.5rem;
+
+}
+
+footer{
+    background-color: var(--blanco);
+    border: solid;
+    text-align: center;
+}
+
+/* Home */
+
+#bienvenida {
+    text-align: center;
+    background-color: rgb(234, 216, 192);
+}
+
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/* Ocultar mientras 
+.servicios {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(240, 222, 152);
+    margin: 2rem    ;
+}
+*/
+
+.button {
+    background-color: rgb(255, 255, 255);
+    padding: .2rem;
+    text-align: center;
+}
+
+#staff {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+#maria {
+    width: 20rem;
+    height: 20rem;
+    background-color: #cec9c9;
+    text-align: center;
+    margin: 2rem;
+}
+
+#jose {
+    width: 20rem;
+    height: 20rem;
+    background-color: #dcd9d9;
+    text-align: center;
+    margin: 2rem;
+}
+
+#carina {
+    width: 20rem;
+    height: 20rem;
+    background-color: #d0cece;
+    text-align: center;
+    margin: 2rem;
+}
+
+.formularioindex {
+    width: 200rem;
+    height: 45rem;
+    background-color: var(--secundario);
+}
+
+#formindex {
+    width: 20rem;
+    margin: 2rem;
+    background-color: rgb(203, 212, 28);
+    
+
+}
+
+/* Servicios */
+
+.imgcentral {
+
+    padding-left: 25%;
+    width: 50%;
+    
+    
+}
+
+.service {
+    width: 20rem;
+    text-align: center;
+    margin: 2rem;
+}
+
